@@ -1,0 +1,665 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, del, dfn, em, img, ins, kbd, q, samp, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td, article, aside, footer, header, nav, section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    font-family: sans-serif;
+    min-height: 416px;
+}
+
+h1 {
+    font-size: 33px;
+    margin: 50px 0 15px;
+    text-align: center;
+    color: #212121;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: bold;
+    color: #3c3c3c;
+    margin: 20px 10px 10px;
+}
+
+small {
+    margin: 0 10px 30px;
+    display: block;
+    font-size: 12px;
+}
+
+a {
+    margin: 0 0 0 10px;
+    font-size: 12px;
+    color: #3c3c3c;
+}
+
+html, body {
+    background: #f3f3f3;
+}
+
+#console {
+    font-size: 12px;
+    font-family: "Inconsolata", "Monaco", "Consolas", "Andale Mono", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace;
+    color: #999;
+    line-height: 18px;
+    margin-top: 20px;
+    max-height: 150px;
+    overflow: auto;
+}
+
+#mySwipe div b {
+    display: block;
+    font-weight: bold;
+    color: #14ADE5;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 100px 10px;
+    box-shadow: 0 1px #EBEBEB;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #E5E5E5 #D3D3D3 #B9C1C6;
+}
+
+#cardgames {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+
+.pagewrap {
+    height: 700px;
+    margin: 0 auto;
+}
+
+.bg {
+    background-size: cover;
+    height: 700px;
+    background: url(../img/bg1.jpg) center top;
+}
+
+.login_form {
+    width: 1024px;
+    margin: 0 auto;
+    left: 137px;
+    position: absolute;
+}
+
+.bg_login {
+    background: url(../img/bg_login.png) center top no-repeat;
+    width: 750px;
+    height: 224px;
+    position: absolute;
+    left: 140px;
+    top: 230px;
+}
+
+.login {
+    background: url(../img/bg_nl.png) center top no-repeat;
+    width: 250px;
+    height: 60px;
+    position: absolute;
+}
+
+.login input {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    width: 200px;
+    padding: 0 25px;
+    height: 60px;
+    line-height: 60px;
+}
+
+.login input:focus {
+    outline: none;
+}
+
+.nut_login {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 340px;
+    left: 750px;
+}
+
+.n_login {
+    background: url(../img/bg_menu2.png) -427px 0px no-repeat;
+}
+
+.n_login:hover {
+    background-position: -427px -70px;
+}
+
+.n_login:active {
+    background-position: -427px -69px;
+}
+
+.vt_lo1 {
+    left: 210px;
+    top: 345px;
+}
+
+.vt_lo2 {
+    left: 480px;
+    top: 345px;
+}
+
+.button1 {
+    display: inline-block;
+    /*zoom: 1; *//* zoom and *display = ie7 hack for display:inline-block */
+    /**display: inline;*/
+    vertical-align: baseline;
+    outline: none;
+    cursor: url(../img/cursor/hand.cur), auto;
+    width: 70px;
+    height: 70px;
+    border: none;
+    text-indent: -10000px;
+}
+
+.div_thongbao {
+    width: 1024px;
+    height: 700px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.p_thongbao {
+    background: url(../img/bg_popup.png) center top no-repeat;
+    width: 750px;
+    height: 285px;
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    z-index: 130;
+}
+
+.p_thongbao.no_bg {
+    background: none;
+}
+
+.p_thongbao p {
+    text-align: center;
+    padding: 110px 30px 0 30px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nut_close {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 0;
+    left: 710px;
+    z-index: 131;
+}
+
+.n_close {
+    background: url(../img/bg_menu2.png) -497px 0px no-repeat;
+}
+
+.n_close:hover {
+    background-position: -497px -70px;
+}
+
+.n_close:active {
+    background-position: -497px -69px;
+}
+
+#loading {
+    width: 32px;
+    height: 42px;
+    margin: 0 auto;
+    text-align: center;
+    background: url(../img/loading.gif) no-repeat 50% 10px / 50%;
+}
+
+.bg_2 {
+    background-size: cover;
+    height: 700px;
+    background: url(../img/bg3.jpg) center top no-repeat;
+}
+
+.nut_chonban {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 280px;
+}
+
+.n_chonban {
+    background: url(../img/bg_menu1.png) 0px 0px no-repeat;
+}
+
+.n_chonban:hover {
+    background: url(../img/bg_menu1.png) 0px -70px no-repeat;
+}
+
+.n_chonban:active {
+    background: url(../img/bg_menu1.png) 0px -69px no-repeat;
+}
+
+.n_chonban_fix {
+    background: url(../img/bg_menu1.png) 0px -70px no-repeat;
+}
+
+.nut_choingay {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 575px;
+}
+
+.n_choingay {
+    background: url(../img/bg_menu1.png) -270px 0px no-repeat;
+}
+
+.n_choingay:hover {
+    background-position: -270px -70px;
+}
+
+.n_choingay:active {
+    background-position: -270px -69px;
+}
+
+.nut_thanhtich {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 875px;
+}
+
+.n_thanhtich {
+    background: url(../img/bg_menu1.png) -540px 0px no-repeat;
+}
+
+.n_thanhtich:hover {
+    background: url(../img/bg_menu1.png) -540px -70px no-repeat;
+}
+
+.n_thanhtich:active {
+    background: url(../img/bg_menu1.png) -540px -69px no-repeat;
+}
+
+.n_thanhtich_fix {
+    background: url(../img/bg_menu1.png) -540px -70px no-repeat;
+}
+
+.button2 {
+    display: inline-block;
+    zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+    *display: inline;
+    vertical-align: baseline;
+    outline: none;
+    cursor: pointer;
+    width: 270px;
+    height: 70px;
+    border: none;
+}
+
+#player0 {
+    top: 475px;
+    left: 600px;
+}
+
+#player1 {
+    top: 475px;
+    left: 415px;
+}
+
+#player2 {
+    top: 250px;
+    left: 250px;
+}
+
+#player3 {
+    top: 25px;
+    left: 415px;
+}
+
+#player4 {
+    top: 25px;
+    left: 600px;
+}
+
+#player5 {
+    top: 25px;
+    left: 785px;
+}
+
+#player6 {
+    top: 250px;
+    left: 965px;
+}
+
+#player7 {
+    top: 475px;
+    left: 785px;
+}
+
+.nv {
+    background: url(../img/bg_ac1.png) center top no-repeat;
+    position: absolute;
+    width: 120px;
+    height: 179px;
+    z-index: 50;
+}
+
+.nv_anh {
+    width: 114px;
+    height: 114px;
+    margin: 0 auto;
+    background: url(../img/av9.jpg) no-repeat 0 0;
+}
+
+.nv_name {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 32px;
+}
+
+.nv_tien {
+    color: #fff;
+    font-size: 18px;
+    padding: 6px 0 0 10px;
+}
+
+.nut_chat {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    z-index: 103;
+}
+
+.n_chat {
+    background: url(../img/bg_menu2.png) -213px 0px no-repeat;
+}
+
+.n_chat:hover {
+    background-position: -213px -70px;
+}
+
+.n_chat:active {
+    background-position: -213px -69px;
+}
+
+.nut_banbe {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 90px;
+    z-index: 102;
+}
+
+.n_banbe {
+    background: url(../img/bg_menu2.png) -285px 0px no-repeat;
+}
+
+.n_banbe:hover {
+    background-position: -285px -70px;
+}
+
+.n_banbe:active {
+    background-position: -285px -69px;
+}
+
+.nut_chup {
+    display: inline-block;
+    position: absolute;
+    bottom: 15px;
+    left: 165px;
+    z-index: 101;
+}
+
+.n_chup {
+    background: url(../img/bg_menu2.png) -357px 0px no-repeat;
+}
+
+.n_chup:hover {
+    background-position: -357px -70px;
+}
+
+.n_chup:active {
+    background-position: -357px -69px;
+}
+
+.nut_back {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    z-index: 107;
+}
+
+.n_quaylai {
+    background: url(../img/bg_menu2.png) 0px 0px no-repeat;
+}
+
+.n_quaylai:hover {
+    background-position: 0px -70px;
+}
+
+.n_quaylai:active {
+    background-position: 0px -69px;
+}
+
+.nut_thietlap {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 940px;
+    z-index: 106;
+}
+
+.n_thietlap {
+    background: url(../img/bg_menu2.png) -140px 0px no-repeat;
+}
+
+.n_thietlap:hover {
+    background-position: -140px -70px;
+}
+
+.n_thietlap:active {
+    background-position: -140px -69px;
+}
+
+.nut_huongdan {
+    display: inline-block;
+    position: absolute;
+    top: 185px;
+    left: 15px;
+    z-index: 107;
+}
+
+.n_huongdan {
+    background: url(../img/bg_menu4.png) 0px 0px no-repeat;
+}
+
+.n_huongdan:hover {
+    background: url(../img/bg_menu4.png) 0px -70px no-repeat;
+}
+
+.n_huongdan:active {
+    background: url(../img/bg_menu4.png) 0px -69px no-repeat;
+}
+
+.nut_intro {
+    display: inline-block;
+    position: absolute;
+    top: 110px;
+    left: 15px;
+    z-index: 107;
+}
+
+.n_intro {
+    background: url(../img/bg_menu3.png) 0px 0px no-repeat;
+}
+
+.n_intro:hover {
+    background: url(../img/bg_menu3.png) 0px -70px no-repeat;
+}
+
+.n_intro:active {
+    background: url(../img/bg_menu3.png) 0px -69px no-repeat;
+}
+
+.nut_music {
+    display: inline-block;
+    position: absolute;
+    top: 260px;
+    left: 15px;
+    z-index: 107;
+}
+
+.n_music {
+    background: url(../img/bg_menu5.png) 0px 0px no-repeat;
+}
+
+.n_music_mute {
+    background: url(../img/bg_menu5.png) 0px -70px no-repeat;
+}
+
+.nut_dat {
+    display: inline-block;
+    width: 190px;
+    height: 70px;
+    position: absolute;
+    top: 120px;
+    left: 384px;
+    z-index: 30;
+    background: url(../img/bg_dat.png) 0px 0px no-repeat;
+    cursor: pointer;
+
+}
+
+.n_tien {
+    width: 100px;
+    height: 60px;
+    margin: 2% 0 0 8%;
+    font-size: 28px;
+    font-weight: bold;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, .8);
+    color: #fff;
+    float: left;
+    line-height: 60px;
+    text-align: left;
+}
+
+.n_dat {
+    width: 48px;
+    height: 48px;
+    margin: 5% 5% 0 0;
+    float: right;
+    font-family: 'UVNTinTucHepThemBold', Arial, Helvetica, sans-serif;
+    color: #ffca14;
+    text-align: center;
+    line-height: 46px;
+    font-size: 24px;
+    padding-right: 6%;
+}
+
+.chon_tien {
+    background: url(../img/bg_tien1.png) center top no-repeat;
+    width: 130px;
+    height: 470px;
+    position: absolute;
+    left: 450px;
+    top: -340px;
+    z-index: 29;
+    padding-top: 10px;
+}
+
+.chon_tien_n {
+    background: url(../img/bg_tien2.png) center top no-repeat;
+    width: 48px;
+    height: 122px;
+    margin: 0 auto;
+    top: 328px;
+    left: 0 !important;
+}
+
+#prt {
+    width: 48px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+#buttons {
+    left: 150px;
+    bottom: 10px;
+    position: absolute;
+}
+
+#bet {
+    right: 150px;
+    bottom: 10px;
+    position: relative;
+}
+
+#threeCardsPlayers {
+    background: url(../img/bg_ban.png) center center no-repeat;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    bottom: 10px;
+}
+
+#cardsArea {
+    bottom: 10px;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+#message {
+    bottom: 10px;
+    position: absolute;
+}
+
+.tien {
+    background: url(../img/bg_tien.png) left top no-repeat;
+    width: 60px;
+    height: 24px;
+    position: absolute;
+    padding: 0 0 0 26px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.chuong {
+    background: url(../img/chuong.png) center top no-repeat;
+    width: 76px;
+    height: 24px;
+    position: absolute;
+}
+
+#phomPlayers {
+    background: url(../img/bg_ban1.png) center center no-repeat;
+    position: absolute;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    bottom: 10px;
+}
+
+.bg_4 {
+    background-size: cover;
+    height: 700px;
+    background: url(../img/bg4.jpg) center top no-repeat;
+}

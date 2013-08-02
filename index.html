@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'/>
+    <link href='css/phom.css' rel='stylesheet'/>
+</head>
+<body>
+    
+<!--    <div style="position:absolute; top: 0; right: 0; width: 20%; color: #fff;">
+        <button onclick="$('#log').html('')">Clear log</button>
+        <div id="log" style="overflow: auto; height: 300px;">
+        </div>
+    </div>-->
+    <div class="container">
+        <div id="wrap">
+            <div id="canvas" style="display:none;"></div>
+
+            <div id="content">
+                <div id="connectionButton" style="display:none;">
+                    <div class="nut_back"><button id="logout" class="button1 n_quaylai" style="display:none;" title="Đăng xuất"></button></div>
+                    <div class="nut_back"><button id="leaveroom" class="button1 n_quaylai" style="display:none;" title="Rời phòng"></button></div>
+                </div>
+                <div id="gameButton">
+                    <button id="startGame" style="display:none;">Bắt đầu</button>
+                    <button id="sortCards" style="display:none;">Xếp</button>
+                    <button id="getCard" style="display:none;">Bốc</button>
+                    <button id="dropCard" style="display:none;">Đánh</button>
+                    <button id="eatCard" style="display:none;">Ăn</button>
+                    <button id="downCardsAuto" style="display:none;">Hạ tự động</button>
+                    <button id="downCards" style="display:none;">Hạ</button>
+                    <button id="sendCards" style="display:none;">Gửi</button>
+                    <button id="u" style="display:none;">Ù</button>
+                    <button id="endGame" style="display:none;">Đóng</button>
+                </div>
+
+                <div id="loginForm" class="login_form" style="display:none;">
+                    <div class="login1">
+                        <div class="login2">
+                            <input name="username" id="username" type="text" maxlength="18" autofocus tabindex="1">
+                            <p><input name="password" id="password" type="password" tabindex="2"></p>
+                        </div>
+                        <div class="login3"><a href="#" id="login" tabindex="3"></a></div>
+                        <!--<div class="login4"><a href="#"><img src="images/n2.jpg" border="0"></a></div>-->
+                    </div>
+                </div>
+
+                <div id="lobby" style="display:none;">
+                    <div class="nut_chonban"><button class="button2 n_chonban_fix"></button></div>
+                    <div class="nut_choingay"><button id="joinroom" class="button2 n_choingay" style="display:none;" title="Chơi ngay"></button></div>
+                    <div class="nut_thanhtich"><button class="button2 n_thanhtich_fix"></button></div>
+
+                    <div class="acc">
+    	                <div class="acc_av"></div>
+                        <div class="acc_nd">
+        	                <p id="accountLabel"></p>
+                            <div class="lv"><div class="lv1"><div class="lv2" style=" width: 0%"></div></div>Lv: 1</div>
+                        </div>
+                    </div>
+                    <div class="nut_nap1"><button class="button1 n_nap1"></button></div>
+                    <div class="sao1"><p id="goldLabel"></p></div>
+                    <div class="nut_nap2"><button class="button1 n_nap2"></button></div>
+                    <div class="sao2"><p id="starLabel"></p></div>
+                </div>
+
+                <div id="message"></div>
+            </div>
+        </div>
+    </div>
+    <div class="cover" style="display:none;">
+        <div class="coverWrap"></div>
+        <div class="div_thongbao"></div>
+    </div>
+
+<script>
+    var BASE_URL = 'http://www.choichung.vn/phom';
+
+    if (typeof console == 'undefined')
+        console = function () { };
+    if (typeof console.log == 'undefined')
+        console.log = function () { }
+    if (typeof console.info == 'undefined')
+        console.info = console.log;
+    if (typeof console.error == 'undefined')
+        console.error = console.log;
+    if (typeof console.debug == 'undefined')
+        console.debug = console.log;
+</script>
+<!-- vendor libraries -->
+    <script src="js/Vendor/json2.js"></script>
+    <script src="js/Vendor/jquery.js"></script>
+    <script src="js/Vendor/jquery.signalR-1.1.2.js"></script>
+    <script src="js/Vendor/kinetic-v4.5.4.js"></script>
+
+    <script src="js/hubs.js"></script>
+
+    <script src="js/Vendor/lodash.js"></script>
+    <script src="js/Vendor/backbone.js"></script>
+    
+    <script src="js/phom/resizeWindows.js"></script>
+
+    <script src="js/phom/phomHub.js"></script>
+
+    <script src="js/phom/accountInfo.js"></script>
+    <script src="js/phom/phom.js"></script>
+    <script src="js/phom/card.js"></script>
+    <script src="js/phom/deck.js"></script>
+    <script src="js/phom/player.js"></script>
+    <script src="js/phom/phomResult.js"></script>
+    <script src="js/phom/timer.js"></script>
+    <script src="js/phom/util.js"></script>
+    <script src="js/phom/main.js" defer="defer"></script>
+
+
+</body>
+</html>
